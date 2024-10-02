@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet" />
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <title>To Do List</title>
+</head>
+
+<body>
+  <div class="box">
+    <h1>To Do List</h1>
+    <div class="input-wrap">
+      <input id="input-box" type="text" placeholder="Add your task" />
+      <button id="add">Add</button>
+    </div>
+    <div class="tasks-container">
+      <div class="task">
+        <ion-icon class="icon" name="ellipse-outline"></ion-icon>
+        First Task
+        <ion-icon class="del-icon" name="close"></ion-icon>
+      </div>
+      <div class="task">
+        <ion-icon class="icon" name="ellipse-outline"></ion-icon>
+        Second Task
+        <ion-icon class="del-icon" name="close"></ion-icon>
+      </div>
+      <div class="task">
+        <ion-icon class="icon" name="ellipse-outline"></ion-icon>
+        Third Task
+        <ion-icon class="del-icon" name="close"></ion-icon>
+      </div>
+    </div>
+  </div>
+  <script src="./script/script.js"></script>
+</body>
+
+</html>
